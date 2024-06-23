@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f9e2a7a3.css",
-    "main.js": "/portfolio/static/js/main.7900b0dc.js",
+    "main.js": "/portfolio/static/js/main.d3561ff4.js",
     "static/js/453.0a7f0965.chunk.js": "/portfolio/static/js/453.0a7f0965.chunk.js",
     "static/media/ApercuPro-ExtraLight.ttf": "/portfolio/static/media/ApercuPro-ExtraLight.d19b714c9620fd1a43bc.ttf",
     "static/media/ApercuPro-Medium.ttf": "/portfolio/static/media/ApercuPro-Medium.9a30717193ce761e8dda.ttf",
     "static/media/Apercu Mono.otf": "/portfolio/static/media/Apercu Mono.0c31ab100ba7ad41953a.otf",
     "index.html": "/portfolio/index.html",
     "main.f9e2a7a3.css.map": "/portfolio/static/css/main.f9e2a7a3.css.map",
-    "main.7900b0dc.js.map": "/portfolio/static/js/main.7900b0dc.js.map",
+    "main.d3561ff4.js.map": "/portfolio/static/js/main.d3561ff4.js.map",
     "453.0a7f0965.chunk.js.map": "/portfolio/static/js/453.0a7f0965.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9e2a7a3.css",
-    "static/js/main.7900b0dc.js"
+    "static/js/main.d3561ff4.js"
   ]
 }
