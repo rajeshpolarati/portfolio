@@ -176,8 +176,9 @@ const MainPage = () => {
           ))}
           <div className="resume-link font-apercu mt-10">
             <a
-              href="."
-              target="blank"
+              href={`${process.env.PUBLIC_URL}/Rajesh_Polarati.pdf`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex group transition-m items-center"
             >
               View My Resume{" "}
