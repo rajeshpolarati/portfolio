@@ -160,6 +160,7 @@ const MainPage = () => {
               Tools
             </h3>
             <p>AWS Medium Level</p>
+            <p>Apache Kafka</p>
             <p>GIT</p>
             <p>Postman</p>
           </div>
