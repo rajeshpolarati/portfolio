@@ -24,6 +24,12 @@
     ],
     "projects": [
         {
+            "projectName": "Postsphere",
+             "url": "https://github.com/rajeshpolarati/postsphere-fe",
+             "description": "Postsphere is a social platform enhancing user interaction with real-time post creation, connections, and engagement features. It utilizes Redux for efficient state management, MongoDB for scalable data storage, and integrates Socket.io with Apache Kafka for instant updates on posts, comments, and likes.",
+             "skills": ["React","Javascript", "Chakra UI", "Redux", "MongoDB", "Express.js", "ApacheKafka", "Socket.io"]
+        },
+        {
             "projectName": "LangLab",
              "url": "https://github.com/rajeshpolarati/Langlab",
              "description": "LangLab is a browser-based integrated development environment (IDE) that supports multiple programming languages, allowing real-time code execution directly in the browser. The platform also includes features for clipboard operations and code file downloads",
