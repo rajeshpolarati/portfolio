@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Project from "./Project";
+import BlogList from "./BlogList";
 
 const experiences = require("../info.json").experiences;
 const projects = require("../info.json").projects;
@@ -34,7 +35,7 @@ const MainPage = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY+100 > window.innerHeight && !showGoToTopBtn) {
+      if (window.scrollY + 100 > window.innerHeight && !showGoToTopBtn) {
         setShowGoToTopBtn(true);
       } else {
         setShowGoToTopBtn(false);
@@ -101,8 +102,8 @@ const MainPage = () => {
         <div className="background_text pt-7 pl-12 pr-2 sm:w-3/4 sm:pl-11 sm:pr-11 sm:pt-0 dark:text-darkgreyBg">
           <p className="mb-3">
             I&apos;m currently serving as a Full-stack engineer at{" "}
-            <span className="font-apercu dark:text-white">Veltris</span> where I specialize in
-            developing web applications across various domains.
+            <span className="font-apercu dark:text-white">Veltris</span> where I
+            specialize in developing web applications across various domains.
           </p>
           <p className="mb-3">
             I enjoy bridging the gap between engineering and design — combining
@@ -197,6 +198,14 @@ const MainPage = () => {
           {projects?.map((exp, index) => (
             <Project {...exp} key={index} />
           ))}
+        </div>
+      </section>
+      <section className="fade-in text-lightgreyBg section blogs w-full min-w-[320px] max-w-[1200px] mx-auto mt-20 flex flex-col sm:px-0 sm:py-20 sm:max-w-[80%] sm:flex-row">
+        <div className="blogs_heading uppercase px-8   font-apercu text-start mb-4 text-violetBg sm:text-right sm:w-1/4 sm:mb-0">
+          Blogs
+        </div>
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
+          <BlogList />
         </div>
       </section>
       <footer className="footer flex flex-col py-10 sm:flex-row ">
